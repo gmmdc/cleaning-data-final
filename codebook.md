@@ -263,3 +263,8 @@ This codebook describes the data set created by the run_analysis.R script. For d
 **freq_BodyGyroscope_JerkMagnitude-MeanFreq**  
 	original name: fBodyBodyGyroJerkMag-meanFreq()
 
+
+### Tidy Data Set of Averages
+The dataset described above was grouped by **activity** and **subject** and the mean() function was run on each variable. The output is a dataframe called `subject_activity_AVG`.
+
+This new summary dataset was written to a text file `tidy_averages.txt` using write.table()
