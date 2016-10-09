@@ -75,5 +75,5 @@ For my solution, I chose to include all variables ending in "mean()", "std()" an
 1. Update all column names to be more descriptive using the grep sub() function
 1. use the aggregate() function to create a new tidy dataframe, grouping by activity and subject, and providing the mean of each variable within these groups
     - Update the column names of all the mean measurement columns, adding a prefix "AVG_"
-1. Write the new dataframe to a txt called "tidy_averages.txt" using the write.table() function
+1. Write the new dataframe to a .txt file called "tidy_averages.txt" using the write.table() function
 

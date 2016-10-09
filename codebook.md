@@ -5,7 +5,11 @@ Date: October 8, 2016
 This codebook describes the data set created by the run_analysis.R script. For details on the source data and the processing performed by the script please see README.md
 
 
-###Tidy Dataset -- _meanStd\_data_ -- class = dataframe
+###Tidy Dataset -- _meanStd\_data_  
+ - Class = data.frame
+ - 10,299 observations
+ - 81 variables
+
 
 **activity** --- Factor of 6 levels 
 
